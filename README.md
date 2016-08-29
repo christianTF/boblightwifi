@@ -27,3 +27,8 @@ I don't know if this is an issue of my script, of the RGB controller or my wifi,
 I currently have tested with one RGB controller. Therefore, boblight.conf captures the full screen color to send it to one device.
 For more than one devices, add that devices to boblight.conf with the same path but other host. For configuration of the zones please read boblight 
 configuration wiki and google the web.
+
+## DoTo
+As the connection possibly drops because of RGB controller or Wifi overload, I try to limit the update speed to the controller.
+My tries with the interval and rate options in boblight.conf did not show any difference. Possibly I can ignore some values that boblightd sends to the script.
+ 
